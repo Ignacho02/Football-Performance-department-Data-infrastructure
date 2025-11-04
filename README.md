@@ -128,7 +128,7 @@ This project demonstrates how to build a **scalable and reproducible data pipeli
 ├── create_db.py     ← (creates database)
 ├── update_db.py     ← (updates database)
 ├── Data_generation.ipynb     ← (generates synthetic data)
-├── players.xlsx     ← (players information)         
+├── players.csv     ← (players information)         
 ├── session_metrics.csv     ← (historic training session data)
 ├── session_metrics_update.csv     ← (new daily training session data)
 ├── wellness.csv       ← (historic wellness data)
@@ -145,6 +145,7 @@ This project demonstrates how to build a **scalable and reproducible data pipeli
 ### 📚 References
 
 * Buchheit, M., Akubat, I., Ellis, M., Campos, M., Rabbani, A., Castagna, C., & Malone, S. (2025). *Revisiting dose–response relationships between heart rate zones, TRIMPs, and aerobic-related markers in elite team sports.* Sport Performance & Science Reports, 269, v1.
+
 * Buchheit, M., & Laursen, P. B. (2024). *Data everywhere, insight nowhere: A practical quadrant-based model for monitoring training load vs. response in elite football.* Sport Performance & Science Reports, 259, v1.
 
 
