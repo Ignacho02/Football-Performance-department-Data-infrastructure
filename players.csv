@@ -1,0 +1,81 @@
+player_id,name,position,age,height_cm,weight_kg,team,dominant_leg,historical_max_speed_kmh
+1,Player_001,DEF,29,181,70,First Team,Right,32.6
+2,Player_002,GK,24,176,68,First Team,Right,32.4
+3,Player_003,GK,18,179,74,First Team,Left,32.3
+4,Player_004,DEF,22,174,59,First Team,Left,33.9
+5,Player_005,DEF,30,179,69,First Team,Left,36.8
+6,Player_006,GK,19,180,70,First Team,Left,35.9
+7,Player_007,FWD,28,163,80,First Team,Left,33.4
+8,Player_008,MID,23,173,80,First Team,Right,33.6
+9,Player_009,FWD,20,181,69,First Team,Left,37.2
+10,Player_010,DEF,18,186,75,First Team,Left,34.3
+11,Player_011,DEF,30,170,64,First Team,Left,36.5
+12,Player_012,FWD,28,185,67,First Team,Right,33.2
+13,Player_013,DEF,25,182,79,First Team,Right,33.7
+14,Player_014,FWD,26,187,64,First Team,Left,34.6
+15,Player_015,DEF,30,186,68,First Team,Left,33.7
+16,Player_016,DEF,30,166,76,First Team,Right,34.1
+17,Player_017,FWD,23,176,68,First Team,Right,33.1
+18,Player_018,DEF,20,175,72,First Team,Right,33.5
+19,Player_019,MID,29,172,70,First Team,Left,30.8
+20,Player_020,DEF,28,184,70,First Team,Left,33.8
+21,Player_021,FWD,26,175,68,U23,Left,32.6
+22,Player_022,MID,20,175,65,U23,Left,31.5
+23,Player_023,MID,25,191,73,U23,Left,33.7
+24,Player_024,DEF,24,176,68,U23,Right,35.1
+25,Player_025,DEF,28,177,63,U23,Right,32.3
+26,Player_026,DEF,17,177,70,U23,Left,32.4
+27,Player_027,MID,22,183,67,U23,Right,31.0
+28,Player_028,FWD,21,173,82,U23,Right,35.1
+29,Player_029,FWD,17,178,66,U23,Left,33.1
+30,Player_030,MID,19,174,79,U23,Left,33.9
+31,Player_031,MID,20,176,77,U23,Right,31.8
+32,Player_032,FWD,30,175,67,U23,Left,34.1
+33,Player_033,FWD,25,166,74,U23,Right,33.4
+34,Player_034,DEF,19,183,78,U23,Left,33.7
+35,Player_035,FWD,24,183,84,U23,Left,33.4
+36,Player_036,GK,30,172,85,U23,Left,33.7
+37,Player_037,FWD,20,171,78,U23,Right,32.3
+38,Player_038,MID,19,170,78,U23,Left,35.8
+39,Player_039,MID,22,171,69,U23,Left,33.0
+40,Player_040,FWD,27,180,74,U23,Left,35.2
+41,Player_041,MID,17,182,68,U21,Right,35.2
+42,Player_042,GK,28,180,72,U21,Right,34.1
+43,Player_043,FWD,29,181,73,U21,Right,31.6
+44,Player_044,DEF,19,173,75,U21,Right,31.1
+45,Player_045,FWD,19,171,74,U21,Left,31.3
+46,Player_046,DEF,26,187,76,U21,Right,33.8
+47,Player_047,DEF,22,168,68,U21,Right,30.7
+48,Player_048,MID,28,174,77,U21,Right,38.8
+49,Player_049,DEF,24,184,77,U21,Left,30.7
+50,Player_050,MID,19,192,87,U21,Right,30.2
+51,Player_051,FWD,26,174,80,U21,Left,34.4
+52,Player_052,DEF,28,174,69,U21,Right,33.3
+53,Player_053,DEF,30,193,77,U21,Left,31.0
+54,Player_054,MID,26,164,77,U21,Right,34.3
+55,Player_055,GK,26,174,70,U21,Left,33.3
+56,Player_056,MID,21,182,66,U21,Left,35.8
+57,Player_057,MID,19,176,85,U21,Left,34.0
+58,Player_058,DEF,30,182,62,U21,Left,31.0
+59,Player_059,FWD,20,177,71,U21,Left,33.0
+60,Player_060,MID,29,183,72,U21,Left,33.1
+61,Player_061,MID,20,164,81,U19,Left,33.3
+62,Player_062,FWD,28,176,76,U19,Left,32.8
+63,Player_063,DEF,29,174,75,U19,Left,35.3
+64,Player_064,DEF,19,171,70,U19,Right,32.5
+65,Player_065,DEF,27,180,77,U19,Right,33.1
+66,Player_066,MID,24,181,63,U19,Right,31.2
+67,Player_067,MID,23,188,71,U19,Right,32.1
+68,Player_068,MID,20,168,70,U19,Right,34.4
+69,Player_069,GK,20,176,70,U19,Left,32.7
+70,Player_070,MID,21,192,75,U19,Left,31.8
+71,Player_071,MID,20,190,76,U19,Right,33.6
+72,Player_072,MID,29,174,72,U19,Left,34.8
+73,Player_073,GK,18,166,74,U19,Left,30.8
+74,Player_074,FWD,23,168,69,U19,Right,32.7
+75,Player_075,DEF,23,184,73,U19,Right,30.6
+76,Player_076,MID,30,175,75,U19,Right,31.8
+77,Player_077,MID,28,177,76,U19,Right,33.1
+78,Player_078,MID,26,172,75,U19,Right,33.0
+79,Player_079,DEF,19,178,76,U19,Right,31.9
+80,Player_080,FWD,22,171,79,U19,Right,33.3
