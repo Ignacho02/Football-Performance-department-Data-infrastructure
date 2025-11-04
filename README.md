@@ -79,7 +79,7 @@ These visualizations replicate the **data flow of professional performance depar
 3. Processed files move automatically to `/done`
 4. Refresh Power BI to update dashboards instantly
 
-![Actualización](Actualizacion.mp4)
+![Actualización](GIF.gif)
 
 This simulates a **live monitoring ecosystem** used in elite football environments.
 
@@ -90,8 +90,11 @@ This simulates a **live monitoring ecosystem** used in elite football environmen
 This project demonstrates how to build a **scalable and reproducible data pipeline** for sports performance monitoring:
 
 ✅ Transform raw CSV exports into a relational SQL database
+
 ✅ Automate ETL processes with Python
+
 ✅ Connect to Power BI for interactive dashboards
+
 ✅ Mirror real-world data workflows used in professional clubs
 
 > It bridges **data engineering and sports science**, turning static spreadsheets into an **intelligent, automated performance monitoring system**.
@@ -122,18 +125,18 @@ This project demonstrates how to build a **scalable and reproducible data pipeli
 ### 🧾 Repository Structure
 
 ```
-├── create_db.py
-├── update_db.py
-├── Data_generation.ipynb
-├── players.xlsx                  
-├── session_metrics.xlsx
-├── wellness.xlsx
-├── fitness_tests.xlsx
-├── requirements.txt
-├── done/
-├── venv/               ← (excluded via .gitignore)
-├── PowerBI_dashboard.pbix
-└── ReadMe.md
+├── create_db.py     ← (creates database)
+├── update_db.py     ← (updates database)
+├── Data_generation.ipynb     ← (generates synthetic data)
+├── players.xlsx     ← (players information)         
+├── session_metrics.csv     ← (historic training session data)
+├── session_metrics_update.csv     ← (new daily training session data)
+├── wellness.csv       ← (historic wellness data)
+├── wellness_update.csv       ← (new daily wellness data)
+├── fitness_tests.csv      ← (historic fitness tests data)
+├── fitness_tests_update.csv      ← (new daily fitness tests data)
+├── Departamento_Optimizacion.pbix      ← (PowerBI dashboard)
+└── football_monitoring.db        ← (created database)
 ```
 
 ---
