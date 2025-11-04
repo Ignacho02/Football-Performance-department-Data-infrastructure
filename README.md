@@ -2,6 +2,9 @@
 
 **From raw GPS and wellness data to automated analytics — simulating a professional football club’s performance ecosystem.**
 
+![Python](https://img.shields.io/badge/python-3.10-blue?logo=python)
+![SQLite](https://img.shields.io/badge/sqlite-3.45-lightgrey?logo=sqlite)
+![Power BI](https://img.shields.io/badge/power%20bi-2.148.1226.0-yellow?logo=powerbi)
 ---
 
 ### 🧩 Introduction
@@ -46,27 +49,6 @@ Raw CSV exports (GPS, wellness, fitness) are unified into a **relational schema*
 | `session_metrics` | GPS & HR data per training session               | Quantifies external/internal load  |
 | `wellness`        | Self-reported recovery metrics                   | Monitors well-being                |
 | `fitness_tests`   | Periodic testing data                            | Tracks long-term adaptation        |
-
----
-
-### ⚙️ Scripts Overview
-
-#### `create_db.py`
-
-* Builds the SQLite database (`football_monitoring.db`)
-* Creates relational tables
-* Imports historical CSV data (players, session metrics, wellness, fitness tests)
-* Prepares the database for Power BI connection
-
-#### `update_db.py`
-
-* Automates daily updates
-* Moves processed files to `/done`
-* Keeps the database synchronized with new CSV exports
-
-#### `Data_generation.ipynb`
-
-* Generates synthetic monitoring data for demonstration purposes
 
 ---
 
@@ -116,20 +98,24 @@ This project demonstrates how to build a **scalable and reproducible data pipeli
 
 ---
 
-### 🧩 Tech Stack
+### ⚙️ Scripts Overview
 
-* **Python 3.11+**
-* **SQLite**
-* **Pandas / SQLAlchemy**
-* **Power BI**
-* **Jupyter Notebook**
+#### `create_db.py`
 
----
+* Builds the SQLite database (`football_monitoring.db`)
+* Creates relational tables
+* Imports historical CSV data (players, session metrics, wellness, fitness tests)
+* Prepares the database for Power BI connection
 
-### 📚 References
+#### `update_db.py`
 
-* Buchheit, M., Akubat, I., Ellis, M., Campos, M., Rabbani, A., Castagna, C., & Malone, S. (2025). *Revisiting dose–response relationships between heart rate zones, TRIMPs, and aerobic-related markers in elite team sports.* Sport Performance & Science Reports, 269, v1.
-* Buchheit, M., & Laursen, P. B. (2024). *Data everywhere, insight nowhere: A practical quadrant-based model for monitoring training load vs. response in elite football.* Sport Performance & Science Reports, 259, v1.
+* Automates daily updates
+* Moves processed files to `/done`
+* Keeps the database synchronized with new CSV exports
+
+#### `Data_generation.ipynb`
+
+* Generates synthetic monitoring data for demonstration purposes
 
 ---
 
@@ -139,7 +125,7 @@ This project demonstrates how to build a **scalable and reproducible data pipeli
 ├── create_db.py
 ├── update_db.py
 ├── Data_generation.ipynb
-├── players.xlsx
+├── players.xlsx                  
 ├── session_metrics.xlsx
 ├── wellness.xlsx
 ├── fitness_tests.xlsx
@@ -149,3 +135,13 @@ This project demonstrates how to build a **scalable and reproducible data pipeli
 ├── PowerBI_dashboard.pbix
 └── ReadMe.md
 ```
+
+---
+
+
+### 📚 References
+
+* Buchheit, M., Akubat, I., Ellis, M., Campos, M., Rabbani, A., Castagna, C., & Malone, S. (2025). *Revisiting dose–response relationships between heart rate zones, TRIMPs, and aerobic-related markers in elite team sports.* Sport Performance & Science Reports, 269, v1.
+* Buchheit, M., & Laursen, P. B. (2024). *Data everywhere, insight nowhere: A practical quadrant-based model for monitoring training load vs. response in elite football.* Sport Performance & Science Reports, 259, v1.
+
+
