@@ -12,3 +12,10 @@ __pycache__/
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+
+# Archivos para la web
+Actualizacion.mp4
+Borrador.docx
+Propuesta proyecto MBDD13 .SFC.pdf
+ReadMe.docx
+Redaccion_proyecto.docx
